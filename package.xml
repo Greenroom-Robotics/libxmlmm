@@ -8,6 +8,7 @@
   <description>Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2</description>
   <maintainer email="denis.draca@greenroomrobotics.com">Denis Draca</maintainer>
   <license>BSL</license>
+  <depend>libxml2</depend>
 
   <url type="website">https://github.com/Greenroom-Robotics/libxmlmm</url>
 

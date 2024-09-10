@@ -27,8 +27,8 @@ target_sources("libxmlmm"
 
 install(
     TARGETS "libxmlmm"
-    DESTINATION ${CMAKE_INSTALL_LIBDIR})
+    DESTINATION lib)
 install(
-    DIRECTORY "libxmlmm"
-    DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/libxmlmm
+    DIRECTORY "libxmlmm/"
+    DESTINATION include
     FILES_MATCHING PATTERN "*.h")
