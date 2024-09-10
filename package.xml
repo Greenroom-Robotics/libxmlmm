@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>libxmlmm</name>
+  <version>1.0.0</version>
+  <description>Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2</description>
+  <maintainer email="denis.draca@greenroomrobotics.com">Denis Draca</maintainer>
+  <license>BSL</license>
+
+  <url type="website">https://github.com/Greenroom-Robotics/libxmlmm</url>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
