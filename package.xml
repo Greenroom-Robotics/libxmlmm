@@ -12,7 +12,9 @@
 
   <url type="website">https://github.com/Greenroom-Robotics/libxmlmm</url>
 
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
   <export>
-    <build_type>cmake</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
